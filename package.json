@@ -1,0 +1,36 @@
+{
+  "name": "mono-backend",
+  "version": "1.0.0",
+  "description": "API for mono beauty",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.ts",
+    "dev": "nodemon src/app.ts",
+    "test": "jest",
+    "test:unit": "jest --config=jest.unit.config.ts",
+    "test:integration": "jest --config=jest.integration.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElMeme26/mono-backend.git"
+  },
+  "author": "Leonardo Pereda Chánez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElMeme26/mono-backend/issues"
+  },
+  "homepage": "https://github.com/ElMeme26/mono-backend#readme",
+  "dependencies": {
+    "bcryptjs": "3.0.3",
+    "cors": "2.8.6",
+    "dotenv": "17.3.1",
+    "express": "5.2.1",
+    "express-rate-limit": "8.2.1",
+    "jsonwebtoken": "9.0.3",
+    "pg": "8.19.0"
+  },
+  "devDependencies": {
+    "jest": "30.2.0",
+    "nodemon": "3.1.14"
+  }
+}
